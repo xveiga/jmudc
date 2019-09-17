@@ -3,6 +3,9 @@ package mudc.core;
 import java.util.ArrayList;
 import java.util.List;
 
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+
 public class UpdateComparator {
 	
 	public static final int STATUS_NORMAL = 0;

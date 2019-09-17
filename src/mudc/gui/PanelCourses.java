@@ -9,7 +9,7 @@ import javax.swing.event.PopupMenuEvent;
 import javax.swing.event.PopupMenuListener;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCourse;
+import mudc.core.dataelements.MoodleCourse;
 
 import java.awt.Color;
 import java.awt.Dimension;

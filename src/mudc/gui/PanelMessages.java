@@ -32,7 +32,7 @@ import javax.swing.JMenuItem;
 import javax.swing.ImageIcon;
 
 import mudc.core.Locales;
-import mudc.core.MoodleMessage;
+import mudc.core.dataelements.MoodleMessage;
 
 @SuppressWarnings("serial")
 public class PanelMessages extends JPanel {

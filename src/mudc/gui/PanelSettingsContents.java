@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 import javax.swing.border.MatteBorder;
 
 import mudc.core.Locales;
-import mudc.core.MoodleInfo;
+import mudc.core.dataelements.MoodleInfo;
 
 import javax.swing.DefaultComboBoxModel;
 

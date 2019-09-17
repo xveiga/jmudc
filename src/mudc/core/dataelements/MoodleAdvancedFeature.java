@@ -1,10 +1,10 @@
-package mudc.core;
+package mudc.core.dataelements;
 
 public class MoodleAdvancedFeature {
-	MoodleAdvancedFeature() {
+	public MoodleAdvancedFeature() {
 	}
 
-	MoodleAdvancedFeature(String Name, long Value) {
+	public MoodleAdvancedFeature(String Name, long Value) {
 		name = Name;
 		value = Value;
 	}

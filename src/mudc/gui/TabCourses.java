@@ -3,7 +3,7 @@ package mudc.gui;
 import javax.swing.JPanel;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCourse;
+import mudc.core.dataelements.MoodleCourse;
 
 import java.awt.BorderLayout;
 import java.awt.Cursor;

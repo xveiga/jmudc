@@ -17,7 +17,7 @@ import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCourse;
+import mudc.core.dataelements.MoodleCourse;
 
 public class ToolbarFiles extends JPanel {
 

@@ -1,10 +1,10 @@
-package mudc.core;
+package mudc.core.dataelements;
 
 public class MoodleFunction {
-	MoodleFunction() {
+	public MoodleFunction() {
 	}
 
-	MoodleFunction(String Name, String Version) {
+	public MoodleFunction(String Name, String Version) {
 		name = Name;
 		version = Version;
 	}

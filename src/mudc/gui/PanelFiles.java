@@ -15,13 +15,13 @@ import javax.swing.tree.TreePath;
 
 import mudc.core.Locales;
 import mudc.core.MetadataStorage;
-import mudc.core.MoodleCategory;
-import mudc.core.MoodleCourse;
-import mudc.core.MoodleElement;
-import mudc.core.MoodleModule;
 import mudc.core.ProgressBinding;
 import mudc.core.ProgressUpdater;
 import mudc.core.UpdateComparator;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleModule;
 
 import java.awt.Color;
 import java.awt.Desktop;

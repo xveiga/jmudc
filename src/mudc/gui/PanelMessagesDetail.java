@@ -29,7 +29,7 @@ import javax.swing.border.MatteBorder;
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
 
-import mudc.core.MoodleMessage;
+import mudc.core.dataelements.MoodleMessage;
 
 @SuppressWarnings("serial")
 public class PanelMessagesDetail extends JPanel {

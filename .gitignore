@@ -3,3 +3,9 @@ bin/
 
 # Client data files (contains personal information)
 files/
+
+# Eclipse settings
+.settings/
+
+# Build location
+/target/

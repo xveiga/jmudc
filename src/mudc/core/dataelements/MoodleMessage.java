@@ -1,4 +1,4 @@
-package mudc.core;
+package mudc.core.dataelements;
 
 public class MoodleMessage {
 	public long id = -1;

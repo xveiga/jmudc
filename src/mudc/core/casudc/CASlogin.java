@@ -38,7 +38,7 @@ public class CASlogin {
 	
 	public boolean login(String loginParams, String confirmationPhrase, String username, char[] password) throws Exception {
 		
-		// Let the spaghetti code adventure begin! I know, "Don't ever parse HTML with regex".
+		// I know, "Don't ever parse HTML with regex"... But it works.
 		System.out.println("[CASlogin] Connecting to CAS website");
 		String loginPage = httpClient.getHTTPS(baseURL + "/login" + loginParams); // Connect to CAS login page.
 		System.out.println("[CASlogin] Parsing CAS website");

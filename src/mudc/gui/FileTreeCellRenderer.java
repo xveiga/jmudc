@@ -11,10 +11,10 @@ import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreeCellRenderer;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCategory;
-import mudc.core.MoodleElement;
-import mudc.core.MoodleModule;
 import mudc.core.UpdateComparator;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleModule;
 
 public class FileTreeCellRenderer implements TreeCellRenderer {
 

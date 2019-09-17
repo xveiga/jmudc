@@ -11,7 +11,7 @@ import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import mudc.core.MoodleCourse;
+import mudc.core.dataelements.MoodleCourse;
 
 import javax.swing.JLabel;
 import javax.swing.JTextPane;

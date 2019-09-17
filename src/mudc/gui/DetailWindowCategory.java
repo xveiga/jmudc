@@ -10,12 +10,13 @@ import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import mudc.core.dataelements.MoodleCategory;
+
 import javax.swing.JLabel;
 import javax.swing.JTextPane;
 import java.awt.Font;
 import javax.swing.SpringLayout;
-
-import mudc.core.MoodleCategory;
 
 @SuppressWarnings("serial")
 public class DetailWindowCategory extends JDialog {

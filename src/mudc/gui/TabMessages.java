@@ -8,7 +8,7 @@ import java.awt.event.ComponentEvent;
 import javax.swing.JPanel;
 
 import mudc.core.Locales;
-import mudc.core.MoodleMessage;
+import mudc.core.dataelements.MoodleMessage;
 
 @SuppressWarnings("serial")
 public class TabMessages extends JPanel {

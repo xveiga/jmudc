@@ -12,17 +12,17 @@ import javax.swing.JPanel;
 import mudc.core.Core;
 import mudc.core.GUISettingsHolder;
 import mudc.core.Locales;
-import mudc.core.MoodleCategory;
-import mudc.core.MoodleCourse;
-import mudc.core.MoodleElement;
-import mudc.core.MoodleInfo;
-import mudc.core.MoodleMessage;
-import mudc.core.MoodleModule;
 import mudc.core.ProgressUpdater;
 import mudc.core.Task;
 import mudc.core.UpdatedObject;
 import mudc.core.casudc.MoodleToken;
 import mudc.core.casudc.MoodleTokenData;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleInfo;
+import mudc.core.dataelements.MoodleMessage;
+import mudc.core.dataelements.MoodleModule;
 
 public class GUI {
 

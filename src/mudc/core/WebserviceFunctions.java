@@ -7,6 +7,15 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import mudc.core.dataelements.MoodleAdvancedFeature;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleFunction;
+import mudc.core.dataelements.MoodleInfo;
+import mudc.core.dataelements.MoodleMessage;
+import mudc.core.dataelements.MoodleModule;
+
 public class WebserviceFunctions {
 	
 	private static final String webservicePath = "/webservice/rest/server.php";

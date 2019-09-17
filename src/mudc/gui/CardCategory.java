@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SpringLayout;
 
-import mudc.core.MoodleCategory;
+import mudc.core.dataelements.MoodleCategory;
 
 @SuppressWarnings("serial")
 public class CardCategory extends JPanel {

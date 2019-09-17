@@ -15,6 +15,12 @@ import org.json.simple.parser.ParseException;
 import mudc.core.casudc.MoodleToken;
 import mudc.core.casudc.MoodleTokenData;
 import mudc.core.casudc.MoodleTokenObtainer;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleInfo;
+import mudc.core.dataelements.MoodleMessage;
+import mudc.core.dataelements.MoodleModule;
 import mudc.gui.GUI;
 
 public class Core {

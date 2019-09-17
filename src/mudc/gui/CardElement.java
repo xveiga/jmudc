@@ -15,8 +15,8 @@ import javax.swing.JPanel;
 import javax.swing.SpringLayout;
 
 import mudc.core.Locales;
-import mudc.core.MoodleElement;
 import mudc.core.UpdateComparator;
+import mudc.core.dataelements.MoodleElement;
 
 @SuppressWarnings("serial")
 public class CardElement extends JPanel {

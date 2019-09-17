@@ -15,7 +15,7 @@ import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 
 import mudc.core.Locales;
-import mudc.core.MoodleMessage;
+import mudc.core.dataelements.MoodleMessage;
 
 @SuppressWarnings("serial")
 public class ListRendererMessage extends JPanel implements ListCellRenderer<MoodleMessage> {

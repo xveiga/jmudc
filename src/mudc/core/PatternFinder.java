@@ -11,11 +11,8 @@ public class PatternFinder {
 	}
 
 	/**
-	 * This method takes a string and finds substrings that match a certain pattern.
-	 * Intended pattern usage: "aaaa(.*?)bbbb". The section in parenthesis is the
-	 * unknown portion. "aaaa" and "bbbb" are start and end known patterns. One of
-	 * them can be empty. It returns an exception if no elements are found, or if a
-	 * parsing error occurs. Of course, other regex expressions can also be used.
+	 * This method takes a string and finds substrings that match a certain regex pattern.
+	 * It returns an exception if no elements are found, or if a parsing error occurs.
 	 */
 	public List<String> findElementsByPattern(String input, String elementPattern) throws Exception {
 		boolean matchFound = false; // Boolean to know if any pattern has been found.

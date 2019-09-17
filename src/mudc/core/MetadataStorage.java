@@ -20,6 +20,14 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import mudc.Main;
+import mudc.core.dataelements.MoodleAdvancedFeature;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleFunction;
+import mudc.core.dataelements.MoodleInfo;
+import mudc.core.dataelements.MoodleMessage;
+import mudc.core.dataelements.MoodleModule;
 
 public class MetadataStorage {
 

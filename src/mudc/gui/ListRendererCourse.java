@@ -16,8 +16,8 @@ import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCourse;
 import mudc.core.UpdateComparator;
+import mudc.core.dataelements.MoodleCourse;
 
 @SuppressWarnings("serial")
 public class ListRendererCourse extends JPanel implements ListCellRenderer<MoodleCourse> {

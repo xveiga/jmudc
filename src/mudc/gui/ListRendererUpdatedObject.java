@@ -13,13 +13,13 @@ import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 
 import mudc.core.Locales;
-import mudc.core.MoodleCategory;
-import mudc.core.MoodleCourse;
-import mudc.core.MoodleElement;
-import mudc.core.MoodleInfo;
-import mudc.core.MoodleModule;
 import mudc.core.UpdatedObject;
 import mudc.core.UpdatedValue;
+import mudc.core.dataelements.MoodleCategory;
+import mudc.core.dataelements.MoodleCourse;
+import mudc.core.dataelements.MoodleElement;
+import mudc.core.dataelements.MoodleInfo;
+import mudc.core.dataelements.MoodleModule;
 
 @SuppressWarnings("serial")
 public class ListRendererUpdatedObject extends JPanel implements ListCellRenderer<UpdatedObject> {
