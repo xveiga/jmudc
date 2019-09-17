@@ -38,10 +38,10 @@ public class ToolbarFiles extends JPanel {
         SpringLayout sl = new SpringLayout();
         setLayout(sl);
 
-        JButton backButton = new JButton(""); //TODO: Custom button class
+        JButton backButton = new JButton("<"); //TODO: Custom button class
         backButton.setBorderPainted(false);
         backButton.setBackground(Colors.panelFilesBackground);
-        backButton.setIcon(new ImageIcon(PanelFiles.class.getResource("/com/sun/javafx/scene/control/skin/caspian/fxvk-backspace-button.png")));
+        //backButton.setIcon(new ImageIcon(PanelFiles.class.getResource("/com/sun/javafx/scene/control/skin/caspian/fxvk-backspace-button.png")));
         sl.putConstraint(SpringLayout.NORTH, backButton, 2, SpringLayout.NORTH, this);
         sl.putConstraint(SpringLayout.WEST, backButton, 2, SpringLayout.WEST, this);
         sl.putConstraint(SpringLayout.EAST, backButton, 34, SpringLayout.WEST, this);
@@ -69,7 +69,7 @@ public class ToolbarFiles extends JPanel {
 
         updateButton.setBorderPainted(false);
         updateButton.setBorderPainted(false);
-        updateButton.setIcon(new ImageIcon(PanelFiles.class.getResource("/com/sun/javafx/scene/web/skin/Undo_16x16_JFX.png")));
+        updateButton.setIcon(new ImageIcon(PanelFiles.class.getResource(gui.getIconPackPath(gui.getIconPack()) + "elements/reload.png")));
         sl.putConstraint(SpringLayout.NORTH, updateButton, 2, SpringLayout.NORTH, this);
         sl.putConstraint(SpringLayout.WEST, updateButton, -34, SpringLayout.EAST, this);
         sl.putConstraint(SpringLayout.SOUTH, updateButton, -2-shadowSize, SpringLayout.SOUTH, this);

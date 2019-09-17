@@ -45,9 +45,9 @@ public class PanelMessagesDetail extends JPanel {
 		SpringLayout sl_toolbarPanel = new SpringLayout();
 		toolbarPanel.setLayout(sl_toolbarPanel);
 
-		JButton backButton = new JButton("");
-		backButton.setIcon(new ImageIcon(PanelMessagesDetail.class
-				.getResource("/com/sun/javafx/scene/control/skin/caspian/fxvk-backspace-button.png")));
+		JButton backButton = new JButton("<");
+		//backButton.setIcon(new ImageIcon(PanelMessagesDetail.class
+				//.getResource("/com/sun/javafx/scene/control/skin/caspian/fxvk-backspace-button.png")));
 		sl_toolbarPanel.putConstraint(SpringLayout.NORTH, backButton, 2, SpringLayout.NORTH, toolbarPanel);
 		sl_toolbarPanel.putConstraint(SpringLayout.WEST, backButton, 2, SpringLayout.WEST, toolbarPanel);
 		sl_toolbarPanel.putConstraint(SpringLayout.EAST, backButton, 34, SpringLayout.WEST, toolbarPanel);

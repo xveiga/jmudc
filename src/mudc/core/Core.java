@@ -686,7 +686,6 @@ public class Core {
 					tokens = token.getTokenForUser(username, password, stayLoggedIn);
 				} catch (Exception e) {
 					accountsException = e;
-
 				}
 				getToken_finish(tokens);
 			}

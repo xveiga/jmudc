@@ -38,7 +38,7 @@ public class ToolbarCourses extends JPanel {
 		
 		JButton updateButton = new JButton();
 		updateButton.setBorderPainted(false);
-		updateButton.setIcon(new ImageIcon(PanelCourses.class.getResource("/com/sun/javafx/scene/web/skin/Undo_16x16_JFX.png")));
+		updateButton.setIcon(new ImageIcon(PanelCourses.class.getResource(gui.getIconPackPath(gui.getIconPack()) + "elements/reload.png")));
 		sl.putConstraint(SpringLayout.NORTH, updateButton, 2, SpringLayout.NORTH, this);
 		sl.putConstraint(SpringLayout.WEST, updateButton, -34, SpringLayout.EAST, this);
 		sl.putConstraint(SpringLayout.SOUTH, updateButton, -2-shadowSize, SpringLayout.SOUTH, this);
